@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>3D mapy túr</title>
+<style>
+:root{--bg:#eef0ec;--fg:#1c2420;--fg2:#56625b;--card:#fcfcfa;--line:#d6d9d1;--accent:#1f5f8b}
+@media (prefers-color-scheme:dark){:root{--bg:#141a18;--fg:#e8ece7;--fg2:#aab4ad;--card:#181e1c;--line:#2f3a35;--accent:#7fb6dc}}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;padding:24px 16px;line-height:1.5}
+main{max-width:640px;margin:0 auto}
+h1{font-size:24px;margin:0 0 4px}
+p.sub{color:var(--fg2);margin:0 0 24px}
+a.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-bottom:14px;text-decoration:none;color:inherit}
+a.card:hover{border-color:var(--accent)}
+a.card b{display:block;font-size:18px;margin-bottom:2px}
+a.card span{color:var(--fg2);font-size:14px}
+a.card small{display:block;margin-top:8px;color:var(--accent);font-size:13px}
+p.note{color:var(--fg2);font-size:13px;margin-top:24px}
+</style>
+</head>
+<body>
+<main>
+<h1>3D mapy túr</h1>
+<p class="sub">Interaktivní 3D modely výstupů: otáčej, přibližuj, ťukni na úsek trasy pro obtížnost a detaily.</p>
+<a class="card" href="zugspitze/"><b>Zugspitze přes Höllental</b><span>Hammersbach · Höllentalklamm · Brett · Höllentalferner · Zugspitze 2962 m</span><small>Otevřít mapu</small></a>
+<a class="card" href="triglav/"><b>Triglav přes Plemenice</b><span>Aljažev dom · Luknja · Bamberška pot · Triglav 2864 m · Kredarica · Prag</span><small>Otevřít mapu</small></a>
+<p class="note">Odlehčené verze pro pomalé připojení: <a href="zugspitze/mobil.html">Zugspitze</a>, <a href="triglav/mobil.html">Triglav</a>.</p>
+<p class="note">Data: Sentinel-2 (Copernicus), Copernicus DEM GLO-30, lidar CLSS (GURS). Obtížnosti a časy jsou orientační, před túrou ověř aktuální podmínky.</p>
+</main>
+</body>
+</html>
